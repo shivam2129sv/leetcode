@@ -4,7 +4,6 @@ class Solution {
         for(int nums : arr){
             sum = sum + nums;
         }
-        int count = sum%k;
-        return count;
+        return sum%k;
     }
 }
